@@ -1,0 +1,144 @@
+/* General Reset */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+/* App Container */
+.app-container {
+  text-align: center;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  max-width: 600px;
+}
+
+/* Airdrop Container */
+.airdrop-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.airdrop-container input {
+  width: 200px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.airdrop-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.airdrop-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Wallet Button Container */
+.wallet-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+/* Container for Displaying Tokens */
+.tokens-container {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.tokens-header {
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.tokens-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.token-item {
+  margin: 5px 0;
+  padding: 10px;
+  background-color: #e9ecef;
+  border-radius: 4px;
+  color: #555;
+}
+
+/* Transfer Form Styles */
+.transfer-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 600px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.transfer-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.transfer-button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 600px) {
+  .app-container, .tokens-container, .transfer-form {
+    width: 90%;
+    padding: 20px;
+  }
+}
